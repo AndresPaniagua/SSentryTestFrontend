@@ -1,0 +1,44 @@
+.body-External {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    min-height: 50vh;
+}
+
+.body-Internal {
+    background-color: #f7f7f7;
+    box-shadow: rgb(0 0 0 / 30%) 0px 5px 10px 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 77px 55px 33px;
+}
+
+.Input-Control-Main {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.2;
+    display: block;
+    background: 0 0;
+    width: 100%;
+    height: 45px;
+    padding: 0 5px;
+    outline: none;
+    border: none;
+    overflow: visible;
+}
+
+.Input-Control-Form {
+    color: #555;
+    line-height: 1.2;
+    display: block;
+    background: 0 0;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    overflow: visible;
+}
+
