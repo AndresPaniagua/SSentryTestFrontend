@@ -1,3 +1,7 @@
+# Take into account before starting
+
+In order for the Frontend project to run smoothly, it's important to first run the `npm install` command.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
