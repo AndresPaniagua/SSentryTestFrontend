@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renderer Components Component of Company RegisterForm should correctly 1`] = `
+<div
+  className="body-External"
+>
+  <div
+    className="body-Internal"
+  >
+    <form
+      className=""
+      onSubmit={[Function]}
+    >
+      <div
+        className="mb-3 row"
+      >
+        <div
+          className="form-group col"
+        >
+          <label
+            className="form-label"
+            htmlFor="identificationNumber"
+          >
+            Número de identificación
+          </label>
+          <input
+            className="form-control"
+            disabled={true}
+            id="identificationNumber"
+            name="identificationNumber"
+            type="number"
+            value="identificationNumber"
+          />
+        </div>
+        <div
+          className="form-group col-md-4"
+        >
+          <label
+            htmlFor="identificationType"
+          >
+            Tipo de identificación
+          </label>
+          <select
+            className="form-control"
+            id="identificationType"
+            name="identificationTypeId"
+            onChange={[Function]}
+          />
+        </div>
+      </div>
+      <div
+        className="mb-3 row"
+      >
+        <div
+          className="form-group col"
+        >
+          <label
+            className="form-label"
+            htmlFor="companyName"
+          >
+            Razón social
+          </label>
+          <input
+            className="form-control"
+            id="companyName"
+            name="companyName"
+            onChange={[Function]}
+            required={true}
+            type="text"
+            value="companyName"
+          />
+        </div>
+      </div>
+      <div
+        className="mb-3 row"
+      >
+        <div
+          className="form-group col"
+        >
+          <label
+            className="form-label"
+            htmlFor="email"
+          >
+            Correo electrónico
+          </label>
+          <input
+            className="form-control"
+            id="email"
+            name="email"
+            onChange={[Function]}
+            required={true}
+            type="text"
+            value="email"
+          />
+          <small
+            className="text-muted"
+          >
+            Ingresa un correo electrónico válido.
+          </small>
+        </div>
+      </div>
+      <div
+        className="mb-3 row"
+      >
+        <div
+          className="form-group col"
+        >
+          <div
+            className="form-check"
+          >
+            <input
+              checked="allowCellphoneMessages"
+              className="form-check-input"
+              disabled={false}
+              id="allowCellphoneMessages"
+              name="allowCellphoneMessages"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="allowCellphoneMessages"
+              title=""
+            >
+              Autorizo ​​el envío de mensajes al celular provisto.
+            </label>
+          </div>
+        </div>
+        <div
+          className="form-group col"
+        >
+          <div
+            className="form-check"
+          >
+            <input
+              checked="allowEmailMessages"
+              className="form-check-input"
+              disabled={false}
+              id="allowEmailMessages"
+              name="allowEmailMessages"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="allowEmailMessages"
+              title=""
+            >
+              Autorizo ​​el envío de mensajes a la siguiente dirección de correo electrónico.
+            </label>
+          </div>
+        </div>
+      </div>
+      <button
+        className="btn btn-primary"
+        disabled={false}
+        style={
+          Object {
+            "marginRight": "2%",
+          }
+        }
+        type="submit"
+      >
+        <span>
+          Actualizar
+        </span>
+      </button>
+      <button
+        className="btn btn-secondary ml-2 btn btn-secondary"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        Regresar
+      </button>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`Renderer Components Component of Home MainForm should correctly 1`] = `
+<div
+  className="body-External"
+>
+  <div
+    className="body-Internal"
+  >
+    <br />
+    <h1
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      Inscripción al servicio
+    </h1>
+    <hr />
+    <p
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      Ingrese el NIT de la persona natural o jurídica para la que realizará el trámite, sin incluir el dígito de verificación. Luego selecione 
+      <strong>
+        Continuar 
+      </strong>
+      para completar su solicitud.
+    </p>
+    <form
+      className=""
+      onSubmit={[Function]}
+    >
+      <div
+        className="mb-3 row"
+      >
+        <div
+          className="form-group col"
+          style={
+            Object {
+              "borderBottom": "2px solid #adadad",
+            }
+          }
+        >
+          <label
+            className="form-label"
+            htmlFor="companyId"
+          >
+            NIT
+          </label>
+          <input
+            className="Input-Control-Main form-control"
+            id="companyId"
+            onChange={[Function]}
+            placeholder="Ingresa aquí el NIT de la empresa"
+            type="number"
+            value=""
+          />
+          <div
+            className="invalid-feedback"
+          >
+            
+          </div>
+        </div>
+      </div>
+      <button
+        className="btn btn-primary btn-lg btn-block btn btn-primary"
+        disabled={false}
+        type="submit"
+      >
+        <span>
+          Continuar
+        </span>
+      </button>
+    </form>
+  </div>
+</div>
+`;
