@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renderer Views when component call is successful Company should correctly 1`] = `
+<div
+  className="home-view container"
+>
+  <RegisterForm />
+</div>
+`;
+
+exports[`Renderer Views when component call is successful Home should correctly 1`] = `
+<div
+  className="home-view container"
+>
+  <MainForm />
+</div>
+`;
